@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failure Prediction</title>
+</head>
+<body>
+    <h1>Machine Failure Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="Operating_Hours">Operating Hours:</label>
+        <input type="text" name="Operating_Hours" id="Operating_Hours" required><br>
+
+        <label for="Vibration_Level (mm/s)">Vibration Level (mm/s):</label>
+        <input type="text" name="Vibration_Level (mm/s)" id="Vibration_Level (mm/s)" required><br>
+
+        <label for="Maintenance_Overdue (days)">Maintenance Overdue (days):</label>
+        <input type="text" name="Maintenance_Overdue (days)" id="Maintenance_Overdue (days)" required><br>
+
+        <label for="Tool_Wear (mm)">Tool Wear (mm):</label>
+        <input type="text" name="Tool_Wear (mm)" id="Tool_Wear (mm)" required><br>
+
+        <label for="Ambient_Temperature (°C)">Ambient Temperature (°C):</label>
+        <input type="text" name="Ambient_Temperature (°C)" id="Ambient_Temperature (°C)" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
