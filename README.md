@@ -45,7 +45,7 @@ pip install -r requirements.txt
 If a pre-trained model is not included, generate the Random Forest model:
 
 ```bash
-python train_model.py
+python rf_model.py
 ```
 
 This will create the `rf_model.pkl` file used for predictions.
@@ -70,9 +70,9 @@ The application will be accessible at `http://localhost:5000`.
 
 ```
 machine-failure-prediction/
-│
+├── MOCK_DATA.csv      # Dataset
 ├── app.py             # Main Flask application
-├── train_model.py     # Script to train the machine learning model
+├── rf_model.py     # Script to train the machine learning model
 ├── rf_model.pkl       # Serialized Random Forest model
 ├── requirements.txt   # Python dependencies
 └── templates/         # HTML templates for the web interface
@@ -82,7 +82,7 @@ machine-failure-prediction/
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/M1ndSmith/machine-failure-prediction/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page] (https://github.com/M1ndSmith/machine-failure-prediction/issues) if you want to contribute.
 
 
 
