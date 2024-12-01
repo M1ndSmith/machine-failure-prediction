@@ -21,3 +21,4 @@ Clone the repository to your local system:
 ```bash
 git clone https://github.com/M1ndSmith/machine-failure-prediction.git
 cd machine-failure-prediction
+"# machine-failure-prediction" 
